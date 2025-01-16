@@ -12,6 +12,7 @@ import { RootStackParamList } from './src/navigation/types';
 import { LoginScreen } from './src/screens/LoginScreen';
 import { ConversationsScreen } from './src/screens/ConversationsScreen';
 import { ChatScreen } from './src/screens/ChatScreen';
+import { UsersScreen } from './src/screens/UsersScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -35,6 +36,10 @@ function App(): React.JSX.Element {
         <Stack.Screen 
           name="Chat" 
           component={ChatScreen}
+        />
+        <Stack.Screen 
+          name="Users" 
+          component={UsersScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>

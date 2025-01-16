@@ -6,6 +6,7 @@ import { CometChat } from '@cometchat/chat-sdk-react-native';
 export type RootStackParamList = {
   Login: undefined;
   Conversations: undefined;
+  Users: undefined;
   Chat: {
     user: CometChat.User;
   };
