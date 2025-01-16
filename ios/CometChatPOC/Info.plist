@@ -25,6 +25,14 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera access is required for image sharing</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Microphone access is required for voice messages</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo library access is required for image sharing</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Photo library access is required to save images</string>
 	<dict>
 	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
